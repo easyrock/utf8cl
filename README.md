@@ -21,3 +21,5 @@ files correctly?
 The utf8cl.exe uses detours(http://research.microsoft.com/en-us/projects/detours/) to inject DLL into processes.
 
 The utf8hook(32/64).dll uses MinHook(http://www.codeproject.com/Articles/44326/MinHook-The-Minimalistic-x-x-API-Hooking-Libra) to hook APIs. It also depends on detours.
+
+I've tested with msvc 2010, 2013, 2015 with platforms x86, amd64, x86_amd64 and amd64_x86.
